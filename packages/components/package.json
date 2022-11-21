@@ -1,0 +1,15 @@
+{
+  "name": "@packages/components",
+  "version": "1.0.0",
+  "description": "awesome components",
+  "type": "module",
+  "keywords": [],
+  "scripts": {
+    "build": "tsup ./src/*"
+  },
+  "dependencies": {
+    "@packages/utils": "workspace:*",
+    "lodash": "^4.17.21"
+  },
+  "license": "MIT"
+}
