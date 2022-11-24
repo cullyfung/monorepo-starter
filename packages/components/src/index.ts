@@ -1,7 +1,5 @@
 import { formatDate } from "@packages/utils";
 
-function main() {
-  console.log(formatDate());
-}
+export const DateNow = formatDate();
 
-main();
+export const foo = "foo";

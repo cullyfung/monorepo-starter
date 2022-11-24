@@ -18,3 +18,7 @@ pnpm test
 # packages/components
 pnpm build
 ```
+## add deps
+```sh
+pnpm add -F 
+```
